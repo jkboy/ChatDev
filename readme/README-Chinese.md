@@ -16,7 +16,18 @@
 - ChatDev的主要目标是提供一个基于大型语言模型（LLM）的**易于使用**、**高度可定制**并且**可扩展**的框架，它是研究群体智能的理想场景。
 
 ## 📰 新闻
-
+- 2023年12月28日：我们推出了一种创新的学习方法——体验共学 (Experiential Co-Learning)。在这种方法中，教学型和助理型 AI 智能体 (agents) 通过积累以实现任务简化为目标的经验，有效地应对新挑战，减少重复性错误，从而提升工作效率。欢迎阅读我们的预印论文，网址为 https://arxiv.org/abs/2312.17025。不久后，这项技术将被融入 ChatDev 平台。
+![image](https://github.com/OpenBMB/ChatDev/assets/6918054/9401d683-87ff-4623-9370-ce5710e43fb1)
+- 2023年11月15日：我们隆重推出基于 ChatDev的面向软件开发者和富有创新精神的企业家的软件即服务 (SaaS) 平台。ChatDev 让他们能够以极低的成本和简单的入门方式，高效地开发软件。欢迎尝试体验，访问网址 https://chatdev.modelbest.cn/。
+![image](https://github.com/OpenBMB/ChatDev/assets/6918054/6b26eed2-8334-4fd6-a0b0-7480a0fc23bb)
+- 2023年11月2日：ChatDev 新增了一项功能——增量式开发。这项功能使得 AI 智能体 (agents) 能够在已有代码的基础上继续进行开发。您可以通过输入命令 --config "incremental" --path "[source_code_directory_path]" 来启动这一功能。
+![image](https://github.com/OpenBMB/ChatDev/assets/6918054/ed4e3657-3f42-40f0-bca0-3bbb8602f870)
+- 2023年10月26日：ChatDev 现已支持 Docker，以确保代码的安全运行（特别感谢 ManindraDeMel 的贡献）。想了解如何使用 Docker 启动 ChatDev，请查阅我们的 Docker 启动指南。
+![image](https://github.com/OpenBMB/ChatDev/assets/6918054/59ba45de-1f03-4517-9de6-7edec400bd8c)
+- 2023年9月25日：Git 模式功能现已上线，为程序员提供了使用 Git 进行版本控制的能力。您只需在 ChatChainConfig.json 文件中将 "git_management" 的值设置为 "True" 即可启用此功能。详细操作方法请查看相关指南。
+![image](https://github.com/OpenBMB/ChatDev/assets/6918054/62dd9425-7fea-41a4-82cb-9818eabeb3f8)
+- 2023年9月20日：人机交互模式 (Human-Agent-Interaction mode) 已经推出！在这个模式下，您可以加入 ChatDev 团队，扮演代码审查者的角色，为程序员的工作提供宝贵建议。只需执行命令 python3 run.py --task [description_of_your_idea] --config "Human" 即可参与。想了解更多，请查阅我们的操作指南和示例。
+![image](https://github.com/OpenBMB/ChatDev/assets/6918054/eefbfdb1-4e64-4061-88ab-c28a1918b602)
 - **2023年9月1日：Art模式现已可用！您可以使用智能体生成软件中使用的图像，尝试 `python3 run.py --config "Art"`。**
   请参见此处的[示例](../WareHouse/gomokugameArtExample_THUNLP_20230831122822)。
 - 2023年8月28日：系统已公开提供使用。
